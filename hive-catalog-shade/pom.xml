@@ -388,6 +388,10 @@ under the License.
                                     <pattern>org.apache.commons.lang3</pattern>
                                     <shadedPattern>shade.doris.hive.org.apache.commons.lang3</shadedPattern>
                                 </relocation>                                     
+                                <relocation>
+                                    <pattern>org.apache.commons.cli</pattern>
+                                    <shadedPattern>shade.doris.org.apache.commons.cli</shadedPattern>
+                                </relocation>
                             </relocations>
                         </configuration>
                     </execution>
